@@ -1,0 +1,45 @@
+body { 
+  background: url("./images/grassBackground.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+*{
+	font-family: 'Acme', sans-serif;
+}
+
+#headerPicture {
+	/*width:100%;*/
+	height:30vh;
+}
+
+.infoBox{
+	background-color:lightgray;
+	border:solid 1px gray;
+	border-radius:5px;
+	padding:10px;
+	margin:10px;
+}
+
+/*Any image of gifts*/
+.giftImage{
+	height:30px;
+	width:30px;
+}
+
+
+/* Results table on city page*/
+#cityTable{
+	width:100%;
+}
+
+#cityTable table, th, td {
+	border: 1px solid black;	
+    border-collapse: collapse;
+}
+
+#cityTable th, td{
+	padding:5px;
+}
